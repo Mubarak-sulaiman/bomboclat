@@ -1,0 +1,226 @@
+body{
+     font-family: Arial, Helvetica, sans-serif;
+     padding: 0px;
+     margin: 0cqi;
+     outline:none;
+     
+     color: rgb(15, 15, 15);
+    
+ 
+}
+html{
+scroll-behavior: smooth;
+transition: 3s;
+}
+section{
+
+}
+*{
+    text-decoration: none;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+width: 30px;
+height: 30px;
+clip-path: circle(50%);
+border-radius: 50px;
+
+}
+.logo span{
+color: red;
+font-weight: bold;
+font-size: 20px;
+}
+nav{
+    padding: 1px;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 5px;
+    
+    margin: 20px;
+}
+nav ul li a{
+    color: black;
+    font-weight: bold;
+    
+}
+nav ul li a:hover{
+    text-decoration: underline;
+    color: red;
+    transition: 1s;
+}
+.homebg{
+    background-color: rgb(242, 239, 239);
+}
+.home{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.content{
+   flex: 1;
+    padding: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+   
+}
+
+.image{
+    flex: 1;
+  display: flex;
+    width:200px;
+    height: 200px;
+margin-left:120px;
+    object-fit: cover;
+    clip-path: circle(50%);
+    border-radius: 50%;
+}
+.content h1{
+   font-size: 25px;
+}
+.content p{
+    font-size: 20px;
+}
+.highlight{
+    color: red;
+}
+
+.home .content p{
+    font-size: 12px;
+}
+button{
+    color: white;
+    font-size: larger;
+    padding: 7px;
+    border-radius: 20px;
+   border: 2px solid blue;
+   background-color: rgb(122, 122, 234);
+
+}
+button:hover{
+   background-color: red;
+   transform: scale(1.1);
+}
+.About{
+    padding: 2px;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 200px; 
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: rgb(175, 189, 206);
+    color: rgb(0, 0, 0);
+}
+.About h2{ 
+    color: rgb(16, 15, 15);
+    font-weight: bold;
+}
+.About h2 span{
+    color: red;
+    font-weight: bold;
+}
+.About p{
+    font-size: 15px;
+    
+}
+footer{
+    background-color: black;
+    color: rgba(255, 255, 255, 0.922);
+   font-weight: bolder;
+   padding: 2px;
+   margin: 5px;
+height: 60px;
+display: flex;
+gap: 10px;
+text-align: center;
+align-items: center;
+}
+footer h3{
+    
+
+}
+.images{
+    display: flex;
+   
+   flex: 1;
+    clip-path: circle(30%);
+    width: 400px;
+    height: 400px;
+    justify-content: center;
+    padding: 20px;
+}
+.images img{
+padding: 5px;
+    border-radius: 20px;
+   background-color: red;
+z-index: 10px;
+    flex: 1;
+}
+
+.wllka{
+    flex:1;
+    display: block;
+    padding: 20px;
+   
+}
+.wllka h1{
+    color: rgb(14, 13, 13);
+ display: block;
+    font-weight: bold;
+   
+}
+.wllka p{
+    font-size: 15px;
+    margin: 7px;
+    padding: 5px;
+    color: red;
+    font-weight: bold;
+}
+.wllka img{
+    float:right;
+    margin-left: 5px;
+    clip-path: circle(50%);
+    width: 200px;
+    height: 100px;
+    
+}
+.icon{
+  margin: 2px;
+  display: block;
+  color: black;
+  padding: 7px;
+}
+@media (max-width: 600px) {
+
+body{
+background-color: rgb(212, 211, 244);
+font-size: 14px;
+}
+nav{
+   flex-direction: column;
+   color: white;
+}
+
+
+}
+@media(min-width: 601px ) {
+    body{
+        background-color: blue;
+        font-size: 14px;
+    }
+}
+
